@@ -1,0 +1,23 @@
+name: PlayerVanish
+author: FiraAja
+main: FiraAja\PlayerVanish\Main
+api: 5.0.0
+version: 1.0.0
+src-namespace-prefix: FiraAja\PlayerVanish
+
+commands:
+  vanish:
+    description: "Enable vanish mode"
+    permission: vanish.command
+
+permissions:
+  vanish.command:
+    default: op
+  vanish.command.other:
+    default: op
+  vanish.effect:
+    default: op
+  vanish.interact:
+    default: op
+  vanish.pvp:
+    default: op

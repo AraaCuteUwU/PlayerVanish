@@ -1,0 +1,20 @@
+# Sent when player is not have `vanish.command` permission
+no-permission: "§cYou do not have permission"
+
+# Sent when a player is not found
+player-null: "§cPlayer not found"
+
+# Sent when player is vanished
+vanish-enable: "§aYou have entered vanish mode. You are now invisible to other players."
+
+# Sent when you vanish another player
+vanish-enable-other: "§a{player} has been vanished"
+
+# Sent when player is un-vanished
+vanish-disable: "§aVanish mode disabled. You are now visible to other players."
+
+# Sent when you un-vanish another player
+vanish-disable-other: "§a{player} has been unvanished"
+
+# Sent when player is vanished by another player
+vanish-by-other: "§aYou have been vanished by {sender}"
