@@ -46,7 +46,7 @@ class Main extends PluginBase implements Listener
      */
     public function onInteract(PlayerInteractEvent $event): void {
         $player = $event->getPlayer();
-        if (in_array($player->getName(), $this->vanished) && !$player->hasPermission("vanish.pvp")) {
+        if (in_array($player->getName(), $this->vanished) && !$player->hasPermission("vanish.interact")) {
             $event->cancel();
         }
     }
